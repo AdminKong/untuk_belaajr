@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+    color: #333 ;
+}
+
+/* Global styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('/image/rm222batch2-mind-03.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5%;
+    border: none;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+
+.cta-button:focus {
+    background-color: #18497c;
+    color: #858585;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.tab {
+    margin-top: 10%;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+.color  {
+    color: #333;
+}
